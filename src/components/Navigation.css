@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Popppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: var(--black);
+    height: 72px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 24px
+}
+
+header button {
+    all: unset;
+    align-self: center;
+    color: var(--white);
+    padding: 6px 16px;
+    background-color: var(--red);
+}
